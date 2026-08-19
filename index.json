@@ -10,8 +10,8 @@
     "languages": ["US", "JP"],
     "url": "aHR0cHM6Ly9ueWFhLnNp",
     "icon": "https://nyaa.si/static/favicon.png",
-    "update": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/index.json",
-    "code": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/dist/nyaa.js",
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/nyaa.js",
     "options": {
       "sortByDate": {
         "type": "boolean",
@@ -31,8 +31,8 @@
     "languages": ["US"],
     "url": "aHR0cHM6Ly9yZWxlYXNlcy5tb2U=",
     "icon": "https://releases.moe/favicon.png",
-    "update": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/index.json",
-    "code": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/dist/seadex.js"
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/seadex.js"
   },
   {
     "manifestVersion": 2,
@@ -45,8 +45,8 @@
     "languages": ["US"],
     "url": "aHR0cHM6Ly9mZWVkLmFuaW1ldG9zaG8ub3Jn",
     "icon": "https://animetosho.org/inc/favicon.ico",
-    "update": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/index.json",
-    "code": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/dist/animetosho.js"
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/animetosho.js"
   },
   {
     "manifestVersion": 2,
@@ -59,8 +59,8 @@
     "languages": ["US", "JP"],
     "url": "aHR0cHM6Ly9uZWtvYnQudG8=",
     "icon": "https://nekobt.to/cdn/pfp/null/64",
-    "update": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/index.json",
-    "code": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/dist/nekobt.js"
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/nekobt.js"
   },
   {
     "manifestVersion": 2,
@@ -73,7 +73,7 @@
     "languages": ["US", "JP"],
     "url": "aHR0cHM6Ly9zdWJzcGxlYXNlLm9yZw==",
     "icon": "https://subsplease.org/favicon.ico",
-    "update": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/index.json",
-    "code": "https://raw.githubusercontent.com/resirch/hayase-extensions/main/dist/subsplease.js"
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/subsplease.js"
   }
 ]
