@@ -320,9 +320,6 @@ function createNyaaSource({ category = "1_2", resultFilter = null } = {}) {
     }
   };
 }
-
-// src/nyaa.js
-var nyaa_default = createNyaaSource({ category: "1_2" });
 export {
-  nyaa_default as default
+  createNyaaSource
 };

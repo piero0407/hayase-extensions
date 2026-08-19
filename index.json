@@ -22,6 +22,27 @@
   },
   {
     "manifestVersion": 2,
+    "name": "Nyaa (Español)",
+    "id": "nyaa-es",
+    "version": "1.0.0",
+    "type": "torrent",
+    "accuracy": "medium",
+    "media": "sub",
+    "languages": ["ES", "MX"],
+    "url": "aHR0cHM6Ly9ueWFhLnNp",
+    "icon": "https://nyaa.si/static/favicon.png",
+    "update": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/index.json",
+    "code": "https://raw.githubusercontent.com/piero0407/hayase-extensions/main/dist/nyaa-es.js",
+    "options": {
+      "sortByDate": {
+        "type": "boolean",
+        "description": "Sort results by upload date (newest first) instead of seeders.",
+        "default": false
+      }
+    }
+  },
+  {
+    "manifestVersion": 2,
     "name": "SeaDex",
     "id": "seadex",
     "version": "1.0.0",

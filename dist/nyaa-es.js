@@ -321,8 +321,12 @@ function createNyaaSource({ category = "1_2", resultFilter = null } = {}) {
   };
 }
 
-// src/nyaa.js
-var nyaa_default = createNyaaSource({ category: "1_2" });
+// src/nyaa-es.js
+var SPANISH_RE = /\bespa[ñn]ol\b|\bspanish\b|\bcastellano\b|\bsubtitulado\b|\bsub\.?\s*(?:esp|es)\b|\besp\b|\bspa\b|\blatino\b|\bhispan(o|a)\b/i;
+var nyaa_es_default = createNyaaSource({
+  category: "1_3",
+  resultFilter: (title) => SPANISH_RE.test(title)
+});
 export {
-  nyaa_default as default
+  nyaa_es_default as default
 };
