@@ -167,8 +167,16 @@ function inferQuerySeason (titles) {
     }
   }
   for (const t of titles || []) {
-    const { parts } = extractSeasonHints(t)
-    if (parts.size) return { season: null, part: [...parts][0] }
+    const { seasons, parts } = extractSeasonHints(t)
+    // Only trust a part-only hint when backed by an explicit "Cour N" marker
+    // or a season number. A bare "Part N" in a synonym (e.g. "BLEACH:
+    // Thousand-Year Blood War Part 4") must not force a part filter onto the
+    // results — nyaa releases for that cour often name it instead ("Bleach:
+    // Sennen Kessen Hen - Kashin Tan - 04" carries no part/cour marker, so a
+    // part=4 filter would drop every legitimate result).
+    if (parts.size && (seasons.size || /\bcour\s*\d\b/i.test(t))) {
+      return { season: null, part: [...parts][0] }
+    }
   }
   return null
 }
